@@ -1,0 +1,45 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+header {
+	height:34px;
+	position:fixed;
+	top:0px;
+	width:100%;
+	overflow:auto;
+	border-bottom: 1px solid #133783;
+	-webkit-box-shadow: 1px 1px 4px #222; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #222;
+}
+
+div.wrapper {
+	margin-top:34px;
+}
+
+header {
+	background:#3b5998;
+}
+
+header div.wrapper {
+	margin-top:0px;
+}
+
+header ul {
+	list-style:none;
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+}
+
+header ul li {
+	float:left;
+}
+
+/* ICON STYLES */
+i {
+	display:inline-block;
+	height:16px;
+	width:16px;	
+}
